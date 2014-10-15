@@ -1,0 +1,1 @@
+compile ASCIIformer.java with java interpreter, then run it. simple as that.
