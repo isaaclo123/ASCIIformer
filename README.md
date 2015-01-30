@@ -1,4 +1,4 @@
-ASCIIFORMER RELEASE_2.0 README:
+ASCIIFORMER RELEASE_2.5 README:
 
 INSTALLATION:
 1. Compile ASCIIformer.java and its levels and methods with a java interpreter
@@ -8,6 +8,9 @@ INSTALLATION:
 CONTROLS:
 wasd to move
 type in quit to quit
+
+CHANGES: The game now features a movement method which is more modular. Some experimental (and non-functional) code for 
+a bot or enemy is also added in the badcode folder. There are more levels, now with a tutorial stage.
 
 PHYSICS:
 At one jump, the character will go up one unit on the array. At 2 jumps, the character will fall down with any 
@@ -29,7 +32,7 @@ HUD:
 The HUD appears displays HP and lives at the top. Directly under it, it displays the score.
 
 LEVEL CREATION
-1. Look at Release_1.0's example levels for formatting levels
+1. Look at Release_2.5's example levels for formatting levels
 2. Compile the levels
 3. Edit ASCIIformer.java and in the array level[][][], look at how the example levels are formatted. Then place your 
 level's name as an object in the array in order. Actual level first, and the backup display second.
@@ -38,5 +41,7 @@ level's name as an object in the array in order. Actual level first, and the bac
 6. Have fun! :)
 
 KNOWN BUGS: 
-none yet
-
+Asteriks above the character are collected when the character walks by them, without adding to the score.
+level0 has a strange missing chunk in the botom right corner which can be walked into, and upon exiting it, has a chunk 
+reappear.
+The bot code is completely nonfunctional.
