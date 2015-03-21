@@ -1,4 +1,5 @@
 #ASCIIformer Release 3
+A simple ASCII platformer
 
 #Installation:
 1. Compile ASCIIformer.java and its levels and methods with a java interpreter
