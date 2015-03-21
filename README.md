@@ -9,7 +9,8 @@
 wasd to move
 type in quit to quit
 
-#Changes: The game now features a movement method which is more modular. Some experimental (and non-functional) code for 
+#Changes:
+The game now features a movement method which is more modular. Some experimental (and non-functional) code for 
 a bot or enemy is also added in the badcode folder. There are more levels, now with a tutorial stage.
 
 #Physics:
@@ -23,7 +24,7 @@ The character starts off with 3 lives and 500 HP. Each inverted v they step on c
 all his HP, they must restart the level they are on, and lose 1 life, regaining 500 HP in the process. If the character 
 reaches 0 HP on his last life, the screen clears, displaying "GAME OVER" and a final score.
 
-#SCORE:
+#Score:
 The character can increment his score by collecting asteriks. Each asterik he recieves increments his score by 100. Each 
 time the character steps on an inverted v, he loses 100 points along with 100 HP. Every time the character collcts an 
 asterik, it dissapears. It is possible to recieve a negative score by stepping on an inverted v repeatedly.
